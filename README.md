@@ -13,6 +13,11 @@ Remember to create a empty file with the name 'ssh' in the boot partition
 [Pigpio Library](http://abyz.me.uk/rpi/pigpio/index.html) \
 [HOWTO install library](http://abyz.me.uk/rpi/pigpio/download.html)
 
+## DOIT:
+ - [x] Machine state to read quadrature encoder X4 
+
 ## TODO:
  - [ ] Periodic cyclic task -> [HOWTO build a basic cyclic application](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/cyclic)
- - [ ] Machine state to read quadrature encoder X4
+ 
+
+

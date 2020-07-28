@@ -22,11 +22,15 @@
 
 void re_decoder::_pulse(int gpio, int level, uint32_t tick)
 {
+   static int8_t lookup_table[] = {0,-1,1,0,1,0,0,-1,-1,0,0,1,0,1,-1,0};
    // Update level
    if (gpio == mygpioA) levA = level; 
    else levB = level;
 
-   counts++;
+   state = state << 2;
+   state = state | ((levA & 1) << 1) | (levB & 1);
+
+   counts += lookup_table[state & 0b1111];
 }
 
 void re_decoder::_pulseEx(int gpio, int level, uint32_t tick, void *user)
@@ -47,6 +51,7 @@ re_decoder::re_decoder(int gpioA, int gpioB)
 
    levA=0;
    levB=0;
+   state = 0;
 
    gpioSetMode(gpioA, PI_INPUT);
    gpioSetMode(gpioB, PI_INPUT);

@@ -9,6 +9,8 @@ class re_decoder
 {
    std::atomic<long> counts {0};
 
+   uint8_t state = 0;
+
    int mygpioA, mygpioB, levA, levB;
 
    void _pulse(int gpio, int level, uint32_t tick);
