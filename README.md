@@ -8,3 +8,7 @@ Remember to create a empty file with the name 'ssh' in the boot partition
 
 2. Install Preempt-RT Patch for any Raspberry Pi.  
 [Tutorial - Raspberry Pi 4B: Real-Time System using Preempt-RT (kernel 4.19.y)](https://lemariva.com/blog/2019/09/raspberry-pi-4b-preempt-rt-kernel-419y-performance-test)
+
+## TODO:
+ - [ ] Periodic cyclic task -> [HOWTO build a basic cyclic application](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/cyclic)
+ - [ ] Machine state to read quadrature encoder X4
