@@ -3,8 +3,7 @@
 ## Steps:
 
 1. Install Raspberry Pi OS (32-bit) Lite. \
-For the official Raspberry Pi OS, if you need to manually log in, the default user name is pi, with password raspberry. 
-
+For the official Raspberry Pi OS, if you need to manually log in, the default user name is pi, with password raspberry. \
 Remember to create a empty file with the name 'ssh' in the boot partition
 
 2. Install Preempt-RT Patch for any Raspberry Pi.  
