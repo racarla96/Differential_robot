@@ -13,6 +13,10 @@ Remember to create a empty file with the name 'ssh' in the boot partition
 [Pigpio Library](http://abyz.me.uk/rpi/pigpio/index.html) \
 [HOWTO install library](http://abyz.me.uk/rpi/pigpio/download.html)
 
+4. Encoder and Motor Library
+
+5. Periodic control task for position and velocity control of the wheel
+
 ## DOIT:
  - [x] Machine state to read quadrature encoder X4 
  - [x] Motor Driver DRV8838
