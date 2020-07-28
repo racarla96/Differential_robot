@@ -15,7 +15,8 @@ Remember to create a empty file with the name 'ssh' in the boot partition
 
 ## DOIT:
  - [x] Machine state to read quadrature encoder X4 
-
+ - [x] Motor Driver DRV8838
+ 
 ## TODO:
  - [ ] Periodic cyclic task -> [HOWTO build a basic cyclic application](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/cyclic)
  
