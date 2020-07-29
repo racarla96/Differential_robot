@@ -15,14 +15,20 @@ Remember to create a empty file with the name 'ssh' in the boot partition
 
 4. Encoder and Motor Library
 
-5. Periodic control task for position and velocity control of the wheel
+5. Periodic control task for position and velocity control of the wheel \
+[PID Digital controller example](https://www.picuino.com/es/arduprog/control-pid-digital.html) \
+Position and velocity needs a hysteresis algorithm to correct the error because the motor have a dead zone that doesn't turn 
 
 ## DOIT:
  - [x] Machine state to read quadrature encoder X4 
  - [x] Motor Driver DRV8838
+ - [x] Periodic cyclic task -> [HOWTO build a basic cyclic application](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/cyclic)
  
 ## TODO:
- - [ ] Periodic cyclic task -> [HOWTO build a basic cyclic application](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/cyclic)
+
+## LINKS:
+[Estimate velocity 1](https://www.embeddedrelated.com/showarticle/158.php)
+[Estimate velocity 2](https://www.motioncontroltips.com/how-are-encoders-used-for-speed-measurement/)
  
 
 
