@@ -110,7 +110,7 @@ int main(int argc, char* argv[])
 
             Sensor = dec.re_get_counts();
             Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-            Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+            Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
             Prev_Sensor = Sensor;
 
@@ -126,7 +126,7 @@ int main(int argc, char* argv[])
 
             Sensor = dec.re_get_counts();
             Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-            Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+            Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
             Prev_Sensor = Sensor;
 
@@ -144,7 +144,7 @@ int main(int argc, char* argv[])
 
             Sensor = dec.re_get_counts();
             Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-            Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+            Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
             Prev_Sensor = Sensor;
 
@@ -160,8 +160,7 @@ int main(int argc, char* argv[])
 
             Sensor = dec.re_get_counts();
             Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-            Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
-
+            Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
             Prev_Sensor = Sensor;
 
             myfile << Input << ";" << Output << endl;
@@ -178,7 +177,7 @@ int main(int argc, char* argv[])
 
             Sensor = dec.re_get_counts();
             Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-            Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+            Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
             Prev_Sensor = Sensor;
 
@@ -192,7 +191,7 @@ int main(int argc, char* argv[])
 
             Sensor = dec.re_get_counts();
             Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-            Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+            Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
             Prev_Sensor = Sensor;
 
@@ -210,7 +209,7 @@ int main(int argc, char* argv[])
 
             Sensor = dec.re_get_counts();
             Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-            Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+            Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
             Prev_Sensor = Sensor;
 
@@ -224,7 +223,7 @@ int main(int argc, char* argv[])
 
             Sensor = dec.re_get_counts();
             Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-            Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+            Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
             Prev_Sensor = Sensor;
 
@@ -241,7 +240,7 @@ int main(int argc, char* argv[])
 
         Sensor = dec.re_get_counts();
         Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-        Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+        Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
         Prev_Sensor = Sensor;
 
@@ -255,7 +254,7 @@ int main(int argc, char* argv[])
 
         Sensor = dec.re_get_counts();
         Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-        Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+        Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
         Prev_Sensor = Sensor;
 
@@ -271,7 +270,7 @@ int main(int argc, char* argv[])
 
         Sensor = dec.re_get_counts();
         Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-        Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+        Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
         Prev_Sensor = Sensor;
 
@@ -285,7 +284,7 @@ int main(int argc, char* argv[])
 
         Sensor = dec.re_get_counts();
         Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
-        Output = 2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)) * T);
+        Output = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
 
         Prev_Sensor = Sensor;
 
