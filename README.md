@@ -25,7 +25,7 @@ Position and velocity needs a hysteresis algorithm to correct the error because 
  - [x] Periodic cyclic task -> [HOWTO build a basic cyclic application](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/cyclic)
  
 ## TODO:
-
+ - [ ] Transfer function of second order (angular velocity) with Matlab with system identification toolbox 
 ## LINKS:
 [Estimate velocity 1](https://www.embeddedrelated.com/showarticle/158.php)
 [Estimate velocity 2](https://www.motioncontroltips.com/how-are-encoders-used-for-speed-measurement/)
