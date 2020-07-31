@@ -95,15 +95,15 @@ int main(int argc, char* argv[])
 
     float SAT = 255;
 
-    float Kp = 1000;
+    float Kp = 0;
     float Kd = 0;
-    float Ki = 10000;
+    float Ki = 150;
     float T = 0.05;
 
     long Prev_Sensor = 0;
     long Delta_Sensor = 0;
     float Sensor = 0;
-    float Referencia = 0.02; // rad/s - Max rad/s:  rad/s
+    float Referencia = 2; // rad/s - Max: 10.90 - Min: 
     float Input = 0;
     
     float Proporcional = 0;
@@ -120,7 +120,7 @@ int main(int argc, char* argv[])
         direction = BACKWARD;
     }
 
-    for (int i = 0; i < 21; i++) {
+    for (int i = 0; i < 100; i++) {
         Sensor = dec.re_get_counts();
         Delta_Sensor = (float) abs(Prev_Sensor - Sensor);
         Input = (2 * M_PI * (Delta_Sensor / ((float)(CPR * MRR * QER)))) / T;
