@@ -28,6 +28,7 @@ Design position and velocity controller
  - [x] Transfer function of first order (angular velocity) with Matlab with system identification toolbox 
  
 ## TODO:
+ - [] Step 5: Design position and velocity controller.
  - [] Step 6: SPI or I2C MPU9250. search library or implement it.
  
 ## LINKS:
