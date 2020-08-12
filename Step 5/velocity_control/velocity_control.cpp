@@ -84,8 +84,12 @@ int main(int argc, char* argv[])
 
     cout << "Running properly!" << endl; 
 
-    drv8838 drv(16, 20);
-    re_decoder dec(7, 8);
+    // Left Motor
+    //drv8838 drv(3, 2);
+    //re_decoder dec(15, 18);
+    // Right Motor
+    drv8838 drv(22, 27);
+    re_decoder dec(23, 24);
 
     ofstream myfile;
     myfile.open ("vel_control.csv");  
@@ -118,6 +122,7 @@ int main(int argc, char* argv[])
     if (Referencia < 0) {
         Referencia = -Referencia;
         direction = BACKWARD;
+        drv.setDirection(direction);
     }
 
     for (int i = 0; i < 100; i++) {
