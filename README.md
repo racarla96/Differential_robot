@@ -1,5 +1,9 @@
 # Differential_robot
 
+## Schematic
+
+![Electrical Schematic]((Documents/Electrical_Schematic/Electrical_Schematic.jpg)
+
 ## Steps:
 
 1. Install Raspberry Pi OS (32-bit) Lite. \
