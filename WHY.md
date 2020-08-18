@@ -28,3 +28,10 @@ From this [link](https://raspberrypi.stackexchange.com/questions/51479/gpio-pin-
 Related links:
 - [Raspberry Official Webpage - BCM2837](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2837/README.md)
 - [BCM2837 ARM Peripherals](Documents/Raspberry/BCM2837-ARM-Peripherals.pdf)
+
+## Raspberry powerup
+
+## Electrical Schematic know it error
+
+Related with 'Raspberry GPIO pin states on powerup', Pack 1
+

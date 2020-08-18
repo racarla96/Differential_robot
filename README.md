@@ -29,13 +29,19 @@ Design position and velocity controller
  - [x] Step 5: Design position and velocity controller.
  
 ## TODO:
+ - [ ] Use PID controller for velocity control with ROS.
+
  
 ## LINKS:
 - [Estimate velocity 1](https://www.embeddedrelated.com/showarticle/158.php)
 - [Estimate velocity 2](https://www.motioncontroltips.com/how-are-encoders-used-for-speed-measurement/)
  
 ## WHY USE ...?
-[Cpp Inline functions](https://www.geeksforgeeks.org/inline-functions-cpp/)
+- [Cpp Inline functions](https://www.geeksforgeeks.org/inline-functions-cpp/)
+
+## TOOLS used:
+- [Draw.io](https://app.diagrams.net/) for creating diagram like electrical schematic.
+- MATLAB
 
 
 
