@@ -19,21 +19,23 @@ Remember to create a empty file with the name 'ssh' in the boot partition
 [PID Digital controller implementation example](https://www.picuino.com/es/arduprog/control-pid-digital.html) \
 Design position and velocity controller
 
-6. Implementation of the MPU9250 for estimation orientation
+6. Reorganize the code and structure of the project
 
 ## DOIT:
  - [x] Machine state to read quadrature encoder X4 
  - [x] Motor Driver DRV8838
  - [x] Periodic cyclic task -> [HOWTO build a basic cyclic application](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/cyclic)
  - [x] Transfer function of first order (angular velocity) with Matlab with system identification toolbox 
+ - [x] Step 5: Design position and velocity controller.
  
 ## TODO:
- - [] Step 5: Design position and velocity controller.
- - [] Step 6: SPI or I2C MPU9250. search library or implement it.
  
 ## LINKS:
 [Estimate velocity 1](https://www.embeddedrelated.com/showarticle/158.php)
 [Estimate velocity 2](https://www.motioncontroltips.com/how-are-encoders-used-for-speed-measurement/)
  
+## WHY USE ...?
+[Cpp Inline functions](https://www.geeksforgeeks.org/inline-functions-cpp/)
+
 
 
