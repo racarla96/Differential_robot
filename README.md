@@ -2,7 +2,7 @@
 
 ## Schematic
 
-![Electrical Schematic]((Documents/Electrical_Schematic/Electrical_Schematic.jpg)
+![Electrical Schematic](Documents/Electrical_Schematic/Electrical_Schematic.jpg)
 
 ## Steps:
 

@@ -21,6 +21,8 @@ so
 
 See paper for [Identification and Real Time Control of a DC Motor](Documents/Motor/Identification_and_Real_Time_Control_of_a_DC_Motor.pdf)
 
+Instead of use the method to identify, you can use [System Identification Toolbox](https://es.mathworks.com/products/sysid.html) when you have data of input and output of the system.
+
 ## Raspberry GPIO pin states on powerup
 
 From this [link](https://raspberrypi.stackexchange.com/questions/51479/gpio-pin-states-on-powerup?answertab=active#tab-top), you can extract the initial state for Raspberry Pi Model A, B, B+, the Compute Module, and the Raspberry Pi Zero because uses the Broadcom BCM2835. In addition, it's the same value for BCM2836 and BCM2837, check on 'The power on state is defined in BCM283X ARM Peripherals page 102' or nearest page.
