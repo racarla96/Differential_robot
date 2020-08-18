@@ -26,5 +26,5 @@ See paper for [Identification and Real Time Control of a DC Motor](Documents/Mot
 From this [link](https://raspberrypi.stackexchange.com/questions/51479/gpio-pin-states-on-powerup?answertab=active#tab-top), you can extract the initial state for Raspberry Pi Model A, B, B+, the Compute Module, and the Raspberry Pi Zero because uses the Broadcom BCM2835. In addition, it's the same value for BCM2836 and BCM2837, check on 'The power on state is defined in BCM283X ARM Peripherals page 102' or nearest page.
 
 Related links:
-[Raspberry Official Webpage - BCM2837](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2837/README.md)
-[BCM2837 ARM Peripherals](Documents/Raspberry/BCM2837-ARM-Peripherals.pdf)
+- [Raspberry Official Webpage - BCM2837](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2837/README.md)
+- [BCM2837 ARM Peripherals](Documents/Raspberry/BCM2837-ARM-Peripherals.pdf)

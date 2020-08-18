@@ -31,8 +31,8 @@ Design position and velocity controller
 ## TODO:
  
 ## LINKS:
-[Estimate velocity 1](https://www.embeddedrelated.com/showarticle/158.php)
-[Estimate velocity 2](https://www.motioncontroltips.com/how-are-encoders-used-for-speed-measurement/)
+- [Estimate velocity 1](https://www.embeddedrelated.com/showarticle/158.php)
+- [Estimate velocity 2](https://www.motioncontroltips.com/how-are-encoders-used-for-speed-measurement/)
  
 ## WHY USE ...?
 [Cpp Inline functions](https://www.geeksforgeeks.org/inline-functions-cpp/)
