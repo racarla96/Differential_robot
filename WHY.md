@@ -31,7 +31,7 @@ Related links:
 - [Raspberry Official Webpage - BCM2837](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2837/README.md)
 - [BCM2837 ARM Peripherals](Documents/Raspberry/BCM2837-ARM-Peripherals.pdf)
 
-## Electrical Schematic Error
+## Electrical Schematic Error Design
 
 I build a electric circuit, when I discovered that the motor runs went turn on the raspberry and the components, and then I discovered that some pins are connected to 3V3 when turn on, so I search the information related with 'Raspberry GPIO pin states on powerup'. The mistake was gpio 3 was connected to 3V3 when turn on so, the motor start tu running, to patch a little bit, you can specify in the init files of the raspberry, some changes in the initial state. It's a patch because one second is running the motor XD.
 
