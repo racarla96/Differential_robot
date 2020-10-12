@@ -4,6 +4,8 @@
 
 ![Electrical Schematic](Documents/Electrical_Schematic/Electrical_Schematic.jpg)
 
+### !Important - Read WHY.md - Electrical Schematic Error Design
+
 ## Steps:
 
 1. Install Raspberry Pi OS (32-bit) Lite. \
